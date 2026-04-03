@@ -7,9 +7,9 @@ a, b = my_tuple
 print(b)
 new_tup = tuple(a)
 print(new_tup)
-concatented_tuple = my_tuple + new_tup
-print(concatented_tuple)
-print(concatented_tuple[2:6:1])
-print(concatented_tuple[::-1])
-del my_tuple
-print(concatented_tuple[::-1][0],concatented_tuple[::-1][4])
+concatenated_tuple = my_tuple + new_tup
+print(concatenated_tuple)
+n=(concatenated_tuple[2:7:4])
+print (n[::-1]) #OR
+print(concatenated_tuple[6:1:-4]) #OR
+print(concatenated_tuple[::-4])
