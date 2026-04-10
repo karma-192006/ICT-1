@@ -9,4 +9,12 @@ for x in li: #x is a variable that takes the value of each item in the list li d
 lenli=len(li)
 for x in range(lenli):
     print(li[x])
-                                                                                                                                                                                          
+
+tupleli=tuple(li)
+for x in range (len(tupleli)): 
+    print (tuple[x])
+
+setli=set(li)
+for x in setli:
+    print (x)
+                                                                                                                                        
