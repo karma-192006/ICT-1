@@ -14,8 +14,10 @@ grade=input("Enter your grade: ")
 students_list.append(Name)
 students_dict[Name]={"Age": age, "Grade":grade}
 
-# Printing a success message and the items of the dictionary
+# Printing a success message
 print("Student information added successfully!")
+
+# Additionally, printing the items of the dictionary to view student details. 
 print("Student Details:")
 for key, value in students_dict.items():
     print("Name:", key)
