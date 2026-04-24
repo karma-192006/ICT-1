@@ -12,9 +12,9 @@ total =calculate_total(m1,m2,m3)
 print("The total mark obtained of",m1,m2,"and", m3, "is:", total)
 
 #function to calculate average
-def calculate_average(m1,m2,m3):
-     return (m1+m2+m3)/3
-average =calculate_average(m1,m2,m3)
+def calculate_average(total):
+     return (total)/3
+average =calculate_average(total)
 print("The total average mark is:", average)
 
 #print the result to show, average>=50: retuen pass, else return fail
